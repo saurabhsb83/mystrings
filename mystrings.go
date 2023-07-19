@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-func Reverse(s string) string {
+func Reversev1(s string) string {
 
 	result := ""
 	for _, v := range s {
@@ -16,7 +16,7 @@ func Reverse(s string) string {
 
 }
 
-func Reversev2(s string) {
+func Reverse(s string) {
 
 	result := ""
 	for _, v := range s {
